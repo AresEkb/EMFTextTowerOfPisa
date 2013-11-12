@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.emftext.language.top/src-gen" modelPluginID="org.emftext.language.top"
+    modelName="top" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
+    copyrightFields="false">
+  <foreignModel>top.ecore</foreignModel>
+  <genPackages prefix="Top" basePackage="org.emftext.language" disposableProviderFactory="true"
+      ecorePackage="top.ecore#/">
+    <genClasses ecoreClass="top.ecore#//Expr">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//Expr/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//ExprChild"/>
+    <genClasses ecoreClass="top.ecore#//A">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//A/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//AChild"/>
+    <genClasses ecoreClass="top.ecore#//B">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//B/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//BChild"/>
+    <genClasses ecoreClass="top.ecore#//C">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//C/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//CChild"/>
+    <genClasses ecoreClass="top.ecore#//D">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//D/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//DChild"/>
+    <genClasses ecoreClass="top.ecore#//E">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//E/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//EChild"/>
+    <genClasses ecoreClass="top.ecore#//F">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//F/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//FChild"/>
+    <genClasses ecoreClass="top.ecore#//G">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//G/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//GChild"/>
+    <genClasses ecoreClass="top.ecore#//H">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//H/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//HChild"/>
+    <genClasses ecoreClass="top.ecore#//I">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//I/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//IChild"/>
+    <genClasses ecoreClass="top.ecore#//J">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//J/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//JChild"/>
+    <genClasses ecoreClass="top.ecore#//K">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//K/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//KChild"/>
+    <genClasses ecoreClass="top.ecore#//L">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//L/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//LChild"/>
+    <genClasses ecoreClass="top.ecore#//M">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//M/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//MChild"/>
+    <genClasses ecoreClass="top.ecore#//N">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//N/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//NChild"/>
+    <genClasses ecoreClass="top.ecore#//O">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//O/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//OChild"/>
+    <genClasses ecoreClass="top.ecore#//P">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//P/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//PChild"/>
+    <genClasses ecoreClass="top.ecore#//Q">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//Q/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//QChild"/>
+    <genClasses ecoreClass="top.ecore#//R">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//R/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//RChild"/>
+    <genClasses ecoreClass="top.ecore#//S">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//S/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//SChild"/>
+    <genClasses ecoreClass="top.ecore#//T">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//T/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//TChild"/>
+    <genClasses ecoreClass="top.ecore#//U">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//U/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//UChild"/>
+    <genClasses ecoreClass="top.ecore#//V">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//V/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//VChild"/>
+    <genClasses ecoreClass="top.ecore#//W">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//W/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//WChild"/>
+    <genClasses ecoreClass="top.ecore#//X">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//X/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//XChild"/>
+    <genClasses ecoreClass="top.ecore#//Y">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//Y/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//YChild"/>
+    <genClasses ecoreClass="top.ecore#//Z">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference top.ecore#//Z/child"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="top.ecore#//ZChild"/>
+    <genClasses ecoreClass="top.ecore#//IntegerLiteral">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute top.ecore#//IntegerLiteral/value"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

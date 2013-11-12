@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EMFText Parser Plugin: top
+Bundle-SymbolicName: org.emftext.language.top.resource.top;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: Software Technology Group - TU Dresden Germany
+Require-Bundle: org.eclipse.core.runtime;resolution:=optional,
+  org.eclipse.emf.ecore,
+  org.eclipse.emf.ecore.change,
+  org.eclipse.emf.validation;resolution:=optional,
+  org.emftext.access;resolution:=optional,
+  org.eclipse.debug.core;resolution:=optional,
+  org.emftext.commons.antlr3_4_0,
+  org.emftext.language.top
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.emftext.language.top.resource.top,
+  org.emftext.language.top.resource.top.analysis,
+  org.emftext.language.top.resource.top.mopp,
+  org.emftext.language.top.resource.top.debug,
+  org.emftext.language.top.resource.top.launch,
+  org.emftext.language.top.resource.top.grammar,
+  org.emftext.language.top.resource.top.util
+Bundle-Activator: org.emftext.language.top.resource.top.mopp.TopPlugin
