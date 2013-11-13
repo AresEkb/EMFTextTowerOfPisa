@@ -32,7 +32,7 @@ public interface N extends MChild {
 	 * <!-- end-user-doc -->
    * @return the value of the '<em>Child</em>' containment reference list.
    * @see org.emftext.language.top.TopPackage#getN_Child()
-   * @model containment="true" lower="2"
+   * @model containment="true" required="true"
    * @generated
    */
 	EList<NChild> getChild();

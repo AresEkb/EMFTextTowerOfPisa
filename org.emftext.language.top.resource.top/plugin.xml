@@ -69,8 +69,19 @@
 	</extension>
 	
 	<extension-point id="org.emftext.language.top.resource.top.default_load_options" name="Default Load Options" schema="schema/default_load_options.exsd">
+		<provider
+			class="org.emftext.language.top.resource.top.post.PostProcessor"
+			id="org.emftext.language.top.resource.top.post.PostProcessor"> 
+  		</provider>
 	</extension-point>
 	
+	<extension point="org.emftext.language.top.resource.top.default_load_options">
+		<provider
+			class="org.emftext.language.top.resource.top.post.PostProcessor"
+			id="org.emftext.language.top.resource.top.post.PostProcessor"> 
+  		</provider>
+  	</extension>
+  	
 	<extension point="org.eclipse.emf.ecore.extension_parser">
 		<parser class="org.emftext.language.top.resource.top.mopp.TopResourceFactoryDelegator" type="top">
 		</parser>

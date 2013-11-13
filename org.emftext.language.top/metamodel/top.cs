@@ -13,35 +13,31 @@ TOKENS {
 
 RULES {
 	Expr ::= child ("," child)*; // A Tower of Pisa' foundation
-	A ::= child ("a" child)+; // 1st floor
-	B ::= child ("b" child)+; // 2nd floor
-	C ::= child ("c" child)+;
-	D ::= child ("d" child)+;
-	E ::= child ("e" child)+;
-	F ::= child ("f" child)+;
-	G ::= child ("g" child)+;
-	H ::= child ("h" child)+;
-	I ::= child ("i" child)+;
-	J ::= child ("j" child)+; // 10th floor. It takes 10 seconds
-	K ::= child ("k" child)+; // 11th floor. It works but observably slower (30 seconds)
-//	L ::= child ("l" child)+; // 12th floor. It still works but even more slowly (5 minutes)
-							  // Also there is a following error for
-							  // org.emftext.language.top.resource.top.mopp.TopParser:
-							  // The code for the static initializer is exceeding the 65535 bytes limit
-							  // Despite parser is generated it doesn't work.
-//	M ::= child ("m" child)+; // 13th floor - impossible to build, the tower is too high
-//	N ::= child ("n" child)+;
-//	O ::= child ("o" child)+;
-//	P ::= child ("p" child)+;
-//	Q ::= child ("q" child)+;
-//	R ::= child ("r" child)+;
-//	S ::= child ("s" child)+;
-//	T ::= child ("t" child)+;
-//	U ::= child ("u" child)+;
-//	V ::= child ("v" child)+;
-//	W ::= child ("w" child)+;
-//	X ::= child ("x" child)+;
-//	Y ::= child ("y" child)+;
-//	Z ::= child ("z" child)+;
+	A ::= child:B ("a" child:B)*; // 1st floor
+	B ::= child:C ("b" child:C)*; // 2nd floor
+	C ::= child:D ("c" child:D)*;
+	D ::= child:E ("d" child:E)*;
+	E ::= child:F ("e" child:F)*;
+	F ::= child:G ("f" child:G)*;
+	G ::= child:H ("g" child:H)*;
+	H ::= child:I ("h" child:I)*;
+	I ::= child:J ("i" child:J)*;
+	J ::= child:K ("j" child:K)*; // 10th floor
+	K ::= child:L ("k" child:L)*; // 11th floor
+	L ::= child:M ("l" child:M)*; // 12th floor
+	M ::= child:N ("m" child:N)*; // 13th floor
+	N ::= child:O ("n" child:O)*;
+	O ::= child:P ("o" child:P)*;
+	P ::= child:Q ("p" child:Q)*;
+	Q ::= child:R ("q" child:R)*;
+	R ::= child:S ("r" child:S)*;
+	S ::= child:T ("s" child:T)*;
+	T ::= child:U ("t" child:U)*;
+	U ::= child:V ("u" child:V)*;
+	V ::= child:W ("v" child:W)*;
+	W ::= child:X ("w" child:X)*;
+	X ::= child:Y ("x" child:Y)*;
+	Y ::= child:Z ("y" child:Z)*; // 26th floor - we did it!
+	Z ::= child ("z" child)*;
 	IntegerLiteral ::= value[INTEGER_LITERAL];
 }

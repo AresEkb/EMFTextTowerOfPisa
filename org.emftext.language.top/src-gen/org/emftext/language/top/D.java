@@ -32,7 +32,7 @@ public interface D extends CChild {
 	 * <!-- end-user-doc -->
    * @return the value of the '<em>Child</em>' containment reference list.
    * @see org.emftext.language.top.TopPackage#getD_Child()
-   * @model containment="true" lower="2"
+   * @model containment="true" required="true"
    * @generated
    */
 	EList<DChild> getChild();

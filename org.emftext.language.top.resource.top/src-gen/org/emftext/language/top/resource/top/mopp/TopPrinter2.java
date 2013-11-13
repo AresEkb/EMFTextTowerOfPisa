@@ -240,8 +240,68 @@ public class TopPrinter2 implements org.emftext.language.top.resource.top.ITopTe
 			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_11, foundFormattingElements);
 			return;
 		}
-		if (element instanceof org.emftext.language.top.IntegerLiteral) {
+		if (element instanceof org.emftext.language.top.L) {
 			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_12, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.M) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_13, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.N) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_14, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.O) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_15, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.P) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_16, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.Q) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_17, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.R) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_18, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.S) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_19, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.T) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_20, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.U) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_21, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.V) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_22, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.W) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_23, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.X) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_24, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.Y) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_25, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.Z) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_26, foundFormattingElements);
+			return;
+		}
+		if (element instanceof org.emftext.language.top.IntegerLiteral) {
+			printInternal(element, org.emftext.language.top.resource.top.grammar.TopGrammarInformationProvider.TOP_27, foundFormattingElements);
 			return;
 		}
 		

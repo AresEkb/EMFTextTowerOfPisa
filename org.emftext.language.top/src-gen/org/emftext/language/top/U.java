@@ -32,7 +32,7 @@ public interface U extends TChild {
 	 * <!-- end-user-doc -->
    * @return the value of the '<em>Child</em>' containment reference list.
    * @see org.emftext.language.top.TopPackage#getU_Child()
-   * @model containment="true" lower="2"
+   * @model containment="true" required="true"
    * @generated
    */
 	EList<UChild> getChild();
