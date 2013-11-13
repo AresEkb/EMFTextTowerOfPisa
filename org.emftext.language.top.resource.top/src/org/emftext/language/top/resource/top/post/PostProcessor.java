@@ -9,6 +9,7 @@ import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.emftext.language.top.Expr;
+import org.emftext.language.top.ExprChild;
 import org.emftext.language.top.resource.top.ITopOptionProvider;
 import org.emftext.language.top.resource.top.ITopOptions;
 import org.emftext.language.top.resource.top.ITopResourcePostProcessor;
@@ -20,12 +21,6 @@ public class PostProcessor implements ITopOptionProvider,
 
 	@Override
 	public void process(TopResource resource) {
-		//EObject root = resource.getContents().get(0);
-		System.out.println(">>> PostProcessor called");
-		System.err.println(">>> PostProcessor called");
-		int x = 1;
-		int y = 0;
-		System.err.println(x / y);
 		simplifyExpressions(resource);
 	}
 
@@ -35,15 +30,11 @@ public class PostProcessor implements ITopOptionProvider,
 
 	@Override
 	public ITopResourcePostProcessor getResourcePostProcessor() {
-		System.out.println(">>> PostProcessor called");
-		System.err.println(">>> PostProcessor called");
 		return this;
 	}
 
 	@Override
 	public Map<?, ?> getOptions() {
-		System.out.println(">>> PostProcessor called");
-		System.err.println(">>> PostProcessor called");
 		return Collections.singletonMap(
 				ITopOptions.RESOURCE_POSTPROCESSOR_PROVIDER, this);
 	}
@@ -71,7 +62,11 @@ public class PostProcessor implements ITopOptionProvider,
 	}
 
 	private static EObject getSingleContained(EObject parent) {
-		if (!(parent instanceof Expr)) {
+		if (!(parent instanceof ExprChild)) {
+			return null;
+		}
+
+		if (parent instanceof Expr) {
 			return null;
 		}
 
@@ -82,7 +77,7 @@ public class PostProcessor implements ITopOptionProvider,
 			}
 			singleContained = contained;
 		}
-		if (!(singleContained instanceof Expr)) {
+		if (!(singleContained instanceof ExprChild)) {
 			return null;
 		}
 
